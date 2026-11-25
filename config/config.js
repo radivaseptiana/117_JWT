@@ -7,4 +7,6 @@ const development = {
   host: process.env.DB_HOST,
   port: process.env.DB_PORT,
   dialect: process.env.DB_DIALECT
-};
+}
+
+module.exports = { development }
